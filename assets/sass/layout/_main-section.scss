@@ -1,0 +1,19 @@
+.main{
+  position: absolute;
+  left: 50%;
+  top: 9.5vh;
+  transform: translatex(-50%);
+
+}
+.main___container{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__title{
+  color: $white;
+  background-color: $spanish-pink;
+  text-align: right;
+}

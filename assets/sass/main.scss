@@ -1,0 +1,23 @@
+/* main.scss
+Archivo de manifiesto
+*/
+/* abstracts */
+//ESTO ES UN COMENTARIO EN SCSS
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+/* vendors */
+
+/* base */
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/base';
+/* layout */
+@import 'layout/header';
+@import 'layout/main-section';
+@import 'layout/forms';
+/* components */
+@import 'components/buttons';
+@import 'components/inputs';
+/* pages */
+
+/* themes */

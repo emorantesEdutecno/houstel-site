@@ -1,0 +1,19 @@
+/* estilos de base */
+body {
+  height: 100vh;
+  background-color: $platinum;
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80%;
+
+}
+.dangerText{
+  @include important-text;
+  background-color: green;
+}
+
+.blackText {
+  @include important-text;
+  background-color: black;
+}

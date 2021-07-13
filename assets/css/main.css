@@ -1,0 +1,83 @@
+/* main.scss
+Archivo de manifiesto
+*/
+/* abstracts */
+/* esquema de colores */
+/* primer esquema de colores */
+/* segundo esquema de colores */
+/* tercer esquema de colores */
+/* cuarto esquema de colores */
+/* Tipografia */
+/*Font Family */
+/*Font Weight*/
+/*Font Sizes */
+/* vendors */
+/* base */
+/* reset */
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  font-size: 30px;
+  color: #EF7F6D;
+}
+
+/* estilos de base */
+body {
+  height: 100vh;
+  background-color: #E8E8E8;
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80%;
+}
+
+.dangerText {
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: green;
+}
+
+.blackText {
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: black;
+}
+
+/* layout */
+.main {
+  position: absolute;
+  left: 50%;
+  top: 9.5vh;
+  transform: translatex(-50%);
+}
+
+.main___container {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__title {
+  color: #FFF;
+  background-color: #F7BFB6;
+  text-align: right;
+}
+
+/* components */
+.button {
+  background-color: #66C7B4;
+}
+
+/* pages */
+/* themes */
+
+/*# sourceMappingURL=main.css.map */
